@@ -1660,7 +1660,11 @@
 :root #MemberCount {
   background-color: var(--background-secondary) !important;
 }
-
+@media (min-width: 1350px) {
+  :root #MemberCount .membersGroup-v9BXpm {
+    padding-top: 12px;
+  }
+}
 @media (min-width: 1200px) {
   .chatContent-a9vAAp + :last-child {
     position: fixed;
